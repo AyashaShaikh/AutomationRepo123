@@ -1,10 +1,23 @@
 package Oops.Abstraction;
 
-public class Sprint1 {
+public abstract class Sprint1 extends MsWord{
 
-	public static void main(String[] args) {
+
+	public void save() {
+		System.out.println("Save feature");
 		// TODO Auto-generated method stub
-
+		
 	}
+
+	
+	public void edit() {
+		System.out.println("edit");
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	
 
 }
