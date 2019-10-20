@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="BasicTestNGAnnotations.GroupChat">
+        <methods>
+          <include name="PostCondtionForTestCase"/>
+          <include name="beforeClass"/>
+          <include name="afterChatModule"/>
+          <include name="test1"/>
+          <include name="beforeChatModule"/>
+          <include name="afterClass"/>
+          <include name="PreCondtionForTestCase"/>
+        </methods>
+      </class> <!-- BasicTestNGAnnotations.GroupChat -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

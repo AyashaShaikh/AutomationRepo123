@@ -20,6 +20,7 @@ public class customer {
 		obj.createAccount("HDFC");
 		obj.createAccount("ICICI");
 		obj.createAccount("Vijaya");
+		obj.createAccount("SBI");
 	}
 	public void createAccount(String bankName)
 	{
@@ -37,12 +38,17 @@ public class customer {
 			else if(bankName.equals("HDFC")) {
 				acc=new HDFC();	
 			}
+			else if(bankName.equals("SBI")) {
+				acc=new SBI();	
+			}
 		
 		acc.savingAccount();
 		acc.currentAccount();
 		acc.debitCard();
 		acc.creditCard();
+		acc.demonetization();
 		//acc.rti not possible
+	
 	}
 
 }
